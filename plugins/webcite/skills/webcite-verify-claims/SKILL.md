@@ -27,7 +27,7 @@ A source match, a stance for each source (supports, contradicts or neutral) and 
 ## REST path
 
 ```bash
-curl -s https://api.webcite.co/api/v1/verify -H "x-api-key: $WEBCITE_API_KEY" \
+curl -s https://api.webcite.co/api/v1/verify -H "x-api-key: YOUR_API_KEY" \
   -H "content-type: application/json" -d '{"claim": "Global EV sales passed 17 million in 2024."}'
 ```
 

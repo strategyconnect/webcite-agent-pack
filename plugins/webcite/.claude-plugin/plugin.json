@@ -8,6 +8,7 @@
     "url": "https://webcite.co"
   },
   "homepage": "https://webcite.co/api-docs/mcp",
+  "privacyPolicyUrl": "https://webcite.co/privacy-policy",
   "license": "MIT",
   "keywords": [
     "webcite",
@@ -18,5 +19,6 @@
     "claim-verification",
     "fact-checking",
     "citations"
-  ]
+  ],
+  "icon": ".claude-plugin/icon.png"
 }

@@ -25,8 +25,8 @@ Check each unit's read status: empty text is not proof that a page has no conten
 ## REST path
 
 ```bash
-curl -s https://api.webcite.co/api/v1/upload -H "x-api-key: $WEBCITE_API_KEY" -F file=@report.pdf
-curl -s https://api.webcite.co/api/v1/extract -H "x-api-key: $WEBCITE_API_KEY" \
+curl -s https://api.webcite.co/api/v1/upload -H "x-api-key: YOUR_API_KEY" -F file=@report.pdf
+curl -s https://api.webcite.co/api/v1/extract -H "x-api-key: YOUR_API_KEY" \
   -H "content-type: application/json" -d '{"asset_id": "<asset_id from upload>"}'
 ```
 
