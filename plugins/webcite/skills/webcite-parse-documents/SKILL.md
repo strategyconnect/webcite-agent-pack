@@ -20,7 +20,7 @@ To check whether the content is true, use `webcite-review-document` or `webcite-
 2. `extract_document` with the `asset_id` returns whole-document Markdown and per-page or per-sheet units, each carrying its page or sheet. Scanned pages and images go through OCR.
 3. `extract_pages` returns citation-ready chunks with anchors.
 
-Extraction is metered per page (see https://webcite.co/api-docs/credits); spreadsheets, DOCX, PPTX, HTML and text files cost 0 credits because they are read from the file itself. Keep the returned structured content and reuse it, since repeating an extraction is charged again. Check each unit's read state, and tell the user which pages could not be read.
+Extraction is metered per page (see https://webcite.co/api-docs/credits); spreadsheets, DOCX, PPTX, HTML and text files cost 0 credits because they are read from the file itself. Keep the returned structured content and reuse it, since repeating an extraction is charged again. Check each unit's read state; for a page whose read failed, name the page and offer to retry it from a clearer copy.
 
 ## REST path
 
